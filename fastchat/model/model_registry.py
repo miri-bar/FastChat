@@ -1,7 +1,7 @@
 """Additional information of the models."""
-from collections import namedtuple, OrderedDict
-from typing import List
 
+from collections import OrderedDict, namedtuple
+from typing import List
 
 ModelInfo = namedtuple("ModelInfo", ["simple_name", "link", "description"])
 
@@ -133,7 +133,12 @@ register_model_info(
 )
 
 register_model_info(
-    ["jamba-1.5-large", "jamba-1.5-mini"],
+    [
+        "jamba-1.5-large-2024-08",
+        "jamba-1.5-mini-2024-08",
+        "jamba-1.5-large-2025-02",
+        "jamba-1.5-mini-2025-02",
+    ],
     "Jamba 1.5",
     "https://www.ai21.com/jamba",
     "Jamba by AI21 Labs",
