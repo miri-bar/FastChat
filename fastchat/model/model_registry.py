@@ -1,7 +1,8 @@
 """Additional information of the models."""
 
-from collections import OrderedDict, namedtuple
+from collections import namedtuple, OrderedDict
 from typing import List
+
 
 ModelInfo = namedtuple("ModelInfo", ["simple_name", "link", "description"])
 
